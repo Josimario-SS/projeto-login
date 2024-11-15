@@ -4,11 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Tela de Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet" />
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
     <main>
-        
+
+        <i id="icone-person" class="material-icons">person</i>
+        <i id="chave" class="material-icons">vpn key</i>
+
+        <img src="imagens/fundo001.jpg" alt="fundo">
+
+        <form action="cadastro.php" method="get" autocomplete="on">
+
+            <h1>Login</h1>
+            <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+
+            <p id="pemail">
+                <label for="iemail" class="material-icons">person</label>
+                <input type="email" name="email" id="iemail" required placeholder="seu email" >
+            </p>
+
+            <p id="psenha">
+                <label for="isenha" class="material-icons" id="vpn">vpn key</label>
+                <input type="password" name="senha" id="isenha" required placeholder="sua senha" maxlength="20">
+            </p>
+
+            <P>
+                <input placeholder="Entrar" id="entrar" class="botoes">
+            </P>
+
+            <p>
+                <input placeholder="Esqueci a senha" id="esenha" class="botoes"> 
+            </p>
+        </form>
     </main>
 </body>
 </html>

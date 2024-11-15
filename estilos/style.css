@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #5f2c82;
+}
+
+main {
+    background-color: rgb(232, 238, 237);
+    height: 70vh;
+    width: 50vw;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 20px;
+    box-shadow: -2px 3px 10px rgba(0, 0, 0, 0.705);
+}
+
+img {
+    max-width: 50vw;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+form {
+    
+    width: 50vw;
+    margin: auto;
+    text-align: center;
+}
+
+p > input {
+    padding: 10px;
+    padding-left: 30px;
+    border-radius: 5px;
+    border: 3px solid #5f2c82;
+    box-shadow: 1px 1px 2px #000000;
+}
+
+#iemail {
+    background-color: #a0c9c786;
+}
+#iemail:hover {
+    background-color: #6bd1c39a;
+}
+
+#isenha {
+    background-color: rgba(114, 223, 199, 0.747);
+}
+#isenha:hover {
+    background-color: rgb(95, 206, 169);
+}
+
+
+.botoes {
+    text-align: center;
+}
+
+#entrar {
+    background-color: #71e2dece;
+    border: none;
+}
+#entrar:hover {
+    background-color: rgb(68, 199, 199);
+}
+
+#esenha {
+    border: 1px solid rgb(37, 175, 99);
+}
+#esenha:hover {
+    background-color: aquamarine;
+}
+
+
+h1 {
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: 800;
+}
+
+p {
+    padding: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
