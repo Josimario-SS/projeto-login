@@ -9,35 +9,18 @@
 </head>
 <body>
     <main>
+        <section id="login">
+            <div id="imagem">
 
-        <i id="icone-person" class="material-icons">person</i>
-        <i id="chave" class="material-icons">vpn key</i>
+            </div>
 
-        <img src="imagens/fundo001.jpg" alt="fundo">
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente! Faça login para acessar sua conta e fazer as configurações no seu ambiente.</p>
 
-        <form action="cadastro.php" method="get" autocomplete="on">
-
-            <h1>Login</h1>
-            <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-
-            <p id="pemail">
-                <label for="iemail" class="material-icons">person</label>
-                <input type="email" name="email" id="iemail" required placeholder="seu email" >
-            </p>
-
-            <p id="psenha">
-                <label for="isenha" class="material-icons" id="vpn">vpn key</label>
-                <input type="password" name="senha" id="isenha" required placeholder="sua senha" maxlength="20">
-            </p>
-
-            <P>
-                <input placeholder="Entrar" id="entrar" class="botoes">
-            </P>
-
-            <p>
-                <input placeholder="Esqueci a senha" id="esenha" class="botoes"> 
-            </p>
-        </form>
+                <form action="login.php" method="post"></form>
+            </div>
+        </section>
     </main>
 </body>
 </html>
