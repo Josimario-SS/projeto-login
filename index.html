@@ -19,23 +19,23 @@
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente! Faça login para acessar sua conta e fazer as configurações no seu ambiente.</p>
 
-                <form action="login.php" method="post">
-                    <p>
-                        <label for="iemail"><i class=""></i></label>
-                        <input type="email" name="email" id="iemail">
-                    </p>
+                <form action="login.php" method="post" autocomplete="on">
+                    <div class="campo">
+                        <i class="material-icons">person</i>
+                        <input type="email" name="email" id="iemail" autocomplete="email" placeholder="Seu email">
+                        <label for="iemail"></label>
+                    </div>
 
-                    <p>
-                        <label for="isenha">senha: </label>
-                        <input type="password" name="senha" id="isenha">
-                    </p>
+                    <div class="campo">
+                        <i class="material-icons">vpn_key</i> 
+                        <input type="password" name="senha" id="isenha" autocomplete="current-password" placeholder="Sua senha">
+                        <label for="isenha"></label>
+                    </div>
 
-                    <p>
-                        <button type="submit">Entrar</button>
-                    </p>
-                    <p>
-                        <button>Esqueci a senha</button>
-                    </p>
+                    <input type="submit" value="Enviar">
+                    <a href="#">
+                        Esqueci a senha <i class="material-icons">mail</i>
+                    </a>
                 </form>
             </div>
         </section>
