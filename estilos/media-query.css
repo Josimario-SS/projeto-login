@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-
 /*Media Queries para telas de Tablets*/
 @media screen and (min-width: 700px) and (max-width: 1100px){
 
@@ -8,13 +7,13 @@
         background-image: linear-gradient(to bottom, rgb(196, 47, 159), rgb(212, 170, 92));
     }
     #imagem {
-        height: 300px;
+        height: 250px;
         width: 310px;
     }
 
     #login {
         width: 90%;
-        height: 300px;
+        height: 250px;
         margin: auto;
         
 
@@ -22,8 +21,8 @@
 
     #formulario {
         position: relative;
-        left: 10px;
-        top: -300px;
+        left: 6px;
+        top: -267px;
         margin-left: 300px;
     }
 }
