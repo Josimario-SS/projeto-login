@@ -7,13 +7,13 @@
         background-image: linear-gradient(to bottom, rgb(196, 47, 159), rgb(212, 170, 92));
     }
     #imagem {
-        height: 250px;
+        height: 100%;
         width: 310px;
     }
 
     #login {
         width: 90%;
-        height: 250px;
+        height: 50%;
         margin: auto;
         
 
@@ -21,8 +21,8 @@
 
     #formulario {
         position: relative;
-        left: 6px;
-        top: -267px;
+        left: 1%;
+        top: -100%;
         margin-left: 300px;
     }
 }
