@@ -32,24 +32,26 @@ main {
 
 #login {
     display: block;
-
+    
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
 
     background-color: white;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
     width: 250;
-    height: 500px;
+    height: 530px;
     border-radius: 20px;
     text-align: center;
     overflow: hidden;
+
+    transform: translate(-50%, -50%);
 }
 
 #formulario {
     padding: 10px;
     display: block;
+    
 }
 
 h1 {
@@ -61,6 +63,66 @@ p {
     font-size: 0.95em;
 }
 
+.campo {
+    background-color: #5f2c82;
+    margin-bottom: 5px;
+    padding: 2px;
+    border-radius: 5px;
+    margin: 5px 0px 5px 0px;
+    color: white;
+}
+
+div > input {
+    width: calc(100% - 45px);
+    height: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    border: 0px;
+    padding: 14px;
+}
+div > input:focus-within {
+    background-color: white;
+}
+
+div > i {
+    width: 40px;
+    padding: 5px;
+    font-size: 2em;
+}
+
+form > input {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 5px;
+    text-decoration: none;
+    background-color: rgb(139, 219, 188);
+    color: rgb(8, 63, 8);
+    border: none;
+    border-radius: 5px;
+}
+form > input:hover {
+    background-color: cadetblue;
+    color: white;
+}
+
+a {
+    display: block;
+    padding: 10px;
+    background-color: rgba(40, 114, 96, 0.904);
+    color: white;
+    border-radius: 5px;
+    font-size: 0.8em;
+    text-align: center;
+    text-decoration: none;
+}
+a:hover {
+    background-color: rgb(41, 192, 142);
+    color: rgb(27, 54, 29);
+}
+
+#mail {
+    font-size: 0.8em;
+}
 
 
 

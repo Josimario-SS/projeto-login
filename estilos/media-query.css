@@ -9,13 +9,13 @@
 
     #imagem {
         height: 100%;
-        width: 310px;
+        width: 311px;
         float: left;
     }
 
     #login {
         width: 90%;
-        height: 60%;
+        height: 50%;
     }
 
     #formulario {
@@ -23,7 +23,8 @@
         width: 55%;
         
     }
-}
+
+} 
 
 
 /* Media Queries para telas grandes*/
@@ -34,18 +35,18 @@
 
     #imagem {
         height: 100%;
-        width: 310px;
+        width: 340px;
         float: right;
     }
 
     #login {
-        width: 90%;
-        height: 60%;
+        width: 80%;
+        height: 50%;
+        
     }
 
     #formulario {
         float: left;
         width: 55%;
-        
     }
 }
